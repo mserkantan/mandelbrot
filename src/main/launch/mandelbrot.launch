@@ -1,0 +1,7 @@
+<launch>
+  <include file="$(find husky_gazebo)/launch/realsense.launch"/>
+  <include file="$(find husky_gazebo)/launch/husky_playpen.launch"/>
+  <include file="$(find husky_viz)/launch/view_robot.launch"/>
+  <node name="web_interface" type="web_interface.py" pkg="main" />
+  <!--<include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch"/> # Ignoring JS explicitly--> 
+</launch>
