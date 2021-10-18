@@ -1,2 +1,0 @@
-main
--DCATKIN_DEVEL_PREFIX=/home/serkan/mandelbrot/devel -DCMAKE_INSTALL_PREFIX=/home/serkan/mandelbrot/install -G Unix Makefiles
