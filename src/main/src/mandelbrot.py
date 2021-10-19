@@ -1,22 +1,5 @@
-#!/usr/bin/env python
 
-
-'''
-@Author: Serkan Tan
-October, 2021
-
-mandelbrot.py 
-
-This driver is used to maintain the robot's logic for example, 
-
-- Running the Computer Vision Algos
-- Handling Localization and Mapping Tasks
-- Running Control Algorithms, EKF, PID etc.
-- Advertising Status Info to Ground Control
-- and anything related to the Robot: Sensors, Point Cloud Data etc.
-
-
-'''
+#!/usr/bin/env python3
 
 import rospy
 from std_msgs.msg import Header, Bool
@@ -104,3 +87,20 @@ class Mandelbrot:
 if __name__ == "__main__":
     robot = Mandelbrot()
     robot.loop()
+
+'''
+@Author: Serkan Tan
+October, 2021
+
+mandelbrot.py 
+
+This driver is used to maintain the robot's logic for example, 
+
+- Running the Computer Vision Algos
+- Handling Localization and Mapping Tasks
+- Running Control Algorithms, EKF, PID etc.
+- Advertising Status Info to Ground Control
+- and anything related to the Robot: Sensors, Point Cloud Data etc.
+
+
+'''

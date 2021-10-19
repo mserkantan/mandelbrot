@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import rospy
 from std_msgs.msg import Header, Bool
 from geometry_msgs.msg import PoseStamped, PoseArray, TwistStamped
