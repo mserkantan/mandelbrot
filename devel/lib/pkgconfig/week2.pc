@@ -1,0 +1,8 @@
+prefix=/home/serkan/mandelbrot/devel
+
+Name: week2
+Description: Description of week2
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

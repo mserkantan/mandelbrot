@@ -1,0 +1,8 @@
+prefix=/home/serkan/mandelbrot/devel
+
+Name: two_wheel_diff
+Description: Description of two_wheel_diff
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
